@@ -38,3 +38,7 @@ app.get("/", (req, res) => {
     },
   ]);
 });
+
+app.listen(app.get("port"), () => {
+  console.log(`The Node app is running in ${app.get("port")}`);
+});
