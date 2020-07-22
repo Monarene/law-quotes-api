@@ -1,0 +1,19 @@
+{
+  "name": "quotes-api",
+  "version": "1.0.0",
+  "description": "This quotes api is to return some law quotes and its for a tutorial",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "API",
+    "test-prpoject"
+  ],
+  "author": "Michael Mekuleyi",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}
